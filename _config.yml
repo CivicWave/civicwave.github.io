@@ -1,13 +1,13 @@
 permalink: /:categories/:title/
 markdown: kramdown
-url: "http://codeforsanfrancisco.org"
+url: "http://data.civicwave.jp/"
 defaultbranch: master
 
-name: Code for San Francisco
-description: A volunteer civic technology group.
+name: CivicWave
+description: 自分たちの未来は、自分たちの手で
 
 owner:
-  twitter: sfbrigade
+  twitter: CivicWavejp
 
 gems:
   - jekyll-redirect-from
@@ -15,7 +15,7 @@ gems:
 prose:
   media: 'images/uploads'
   rooturl: '_posts'
-  siteurl: http://codeforsanfrancisco.org
+  siteurl: http://data.civicwave.jp/
   ignore:
     - index.md
     - _config.yml
