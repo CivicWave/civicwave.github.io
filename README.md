@@ -1,6 +1,45 @@
 CivicWave GitHub Page
 -----------
 
+### CivicWave Memo
+
+バージョンを環境にあわせるなら
+
+    $ rm Gemfile Gemfile.lock
+
+bundlerのインストール
+
+    $ rbenv exec gem install bundler
+    $ rbenv exec bundle init
+
+'github-pages'のGemを追加
+
+    $ vi Gemfile
+    gem 'github-pages'
+
+Gemfileの環境設定
+
+    $ bundle update
+    $ bundle install
+
+バージョン確認
+
+    $ ruby -v
+    => ruby 2.4.3p205 (2017-12-14 revision 61247) [x86_64-darwin17]
+    $ jekyll -v
+    => jekyll 3.6.2
+
+jekyllの実行
+
+    $ jekyll serve  (jekyll s)
+    => http://localhost:4000
+
+
+#### 参考
+
+* [Using Jekyll as a static site generator with GitHub Pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/)
+* [Jekyll](https://jekyllrb-ja.github.io/)
+
 ### Fork
 fork from Code for San Francisco
 
@@ -143,3 +182,5 @@ https://jekit.codeforamerica.org/lolname/sfbrigade.github.io/master/projects
 3. Implement your feature or bug fix.
 4. Commit and push your changes.
 5. Submit a pull request.
+
+
